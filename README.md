@@ -14,4 +14,19 @@ The model is applied to forecast a bivariate timeseries of daily currency exchan
 
 The model inputs the last 128 daily values of the two univariate timeseries (EUR/USD and GBP/USD), and outputs the values for EUR/USD and GBP/USD for the next day.
 
-[Work in progress...]
+(...)
+
+<p align="center">
+  <img src="https://github.com/paulbuiqg/transformer_forecaster/blob/main/viz/training.png" />
+</p>
+
+(...)
+
+<p align="center">
+  <img src="https://github.com/paulbuiqg/transformer_forecaster/blob/main/viz/EUR_prediction.png" />
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/paulbuiqg/transformer_forecaster/blob/main/viz/GBP_prediction.png" />
+</p>
