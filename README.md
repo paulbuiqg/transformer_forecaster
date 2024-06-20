@@ -1,6 +1,6 @@
 # Transformer for time series forecasting
 
-A neural network model for time series autoregressive forecasting with a transformer encoder.
+A neural network model for time series autoregression with a transformer encoder.
 
 The model is applied to forecast a time series of daily currency exchange rates: euro (EUR) against US dollar (USD).
 
