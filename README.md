@@ -12,9 +12,9 @@ The model is applied to forecast a bivariate timeseries of daily currency exchan
   <img src="https://github.com/paulbuiqg/transformer_forecaster/blob/main/viz/GBP.png" />
 </p>
 
-The model inputs the last 128 daily values of the two univariate timeseries (EUR/USD and GBP/USD), and outputs the values for EUR/USD and GBP/USD for the next day.
+The model inputs the last 64 daily values of the two univariate timeseries (EUR/USD and GBP/USD), and outputs the values for EUR/USD and GBP/USD for the next day. It is composed of a transformer sequence encoder and a linear layer, and has ~36M parameters.
 
-(...)
+The (L1) loss converges quite fast.
 
 <p align="center">
   <img src="https://github.com/paulbuiqg/transformer_forecaster/blob/main/viz/training.png" />
